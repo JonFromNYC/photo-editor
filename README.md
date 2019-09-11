@@ -1,2 +1,12 @@
 # photo-editor
-Use the latest CSS features to edit a photo
+Using the latest CSS features, HTML5 custom data attributes, and ES6 template literals the user can edit a photo.
+
+## How it works
+This program leverages Scoped CSS Variables along with ES6.
+
+What makes this small program efficient and DRY is
+```JavaScript
+const suffix = this.dataset.sizing || "";
+document.documentElement.style.setProperty(`--${this.name}`, this.value + suffix);
+```
+### See for yourself
