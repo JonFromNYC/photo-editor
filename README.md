@@ -13,3 +13,4 @@ document.documentElement.style.setProperty(`--${this.name}`, this.value + suffix
 Use the sliders to adjust the photo.
 
 ### See for yourself
+https://jonfromnyc.github.io/photo-editor/
